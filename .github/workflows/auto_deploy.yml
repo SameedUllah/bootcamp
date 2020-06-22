@@ -34,5 +34,3 @@ jobs:
     
     - name: deploying using surge
       run:  surge ./ bootcamp_dojo.surge.sh --token $ {{secrets.surge_token}}
-        echo Add other actions to build,
-        echo test, and deploy your project.
